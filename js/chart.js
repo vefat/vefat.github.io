@@ -10,8 +10,8 @@
     context.clearRect(0, 0, width, height);
     context.font = '16px sans-serif';
     textHeight = context.measureText('M').width;
-    drawGrid(width, height, 40, padding, '#d1e6ff', 1);
-    drawGrid(width, height, 10, padding, '#d1e6ff', 2);
+    drawGrid(width, height, 40, padding, '#eee', 1);
+    drawGrid(width, height, 10, padding, '#eee', 2);
     var labels = [
       { text: 'Acoustic-Folk', horizontal: 'left', vertical: 'top', x: 0, y: 0 },
       { text: 'Acoustic', horizontal: 'center',vertical: 'top', x: width / 2, y: 0 },
